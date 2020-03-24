@@ -116,9 +116,9 @@ h3{
     text-align: center;
 }
 
-.computer{
+/* .computer{
     float: right;
-}
+} */
 
 #aboutMeArticle{
     padding-top: 20px;
@@ -126,7 +126,7 @@ h3{
 }
 
 li{
-    text-indent: 20px;
+    text-indent: 60px;
 }
 
 .left{
@@ -136,4 +136,8 @@ li{
 /* Contact Me */
 #contactMe{
     height: 100px;
+}
+
+.waves-effect{
+    margin: 10px;
 }
