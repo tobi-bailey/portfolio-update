@@ -8,7 +8,7 @@ article{
 }
 
 .container{
-    height: 900px;
+    height: 100%;
 }
 
 .m12{
@@ -86,6 +86,35 @@ h4{
     padding-bottom: 60px;
 }
 
+#quizchallenge{
+    background-color: #fcba03;
+    color: #fff;
+    padding-bottom: 60px;
+}
+
+.coding-quiz{
+    width: 60%;
+}
+
+#thanklyapp{
+    background-color: #65008a;
+    color: #fff;
+    padding-bottom: 60px;
+}
+
+.thankly-image{
+    width: 60%;
+}
+
+#burgerapp{
+    background-color: #0073ff;
+    color: #fff;
+    padding-bottom: 60px;
+}
+
+.burger-image{
+    width: 60%;
+}
 /* About me Page */
 
 #webDev{
@@ -152,6 +181,16 @@ li{
 
 @media only screen and (max-width: 700px) {
     .computer{
-      float: left !important;
+        float: none;
+        padding-left: 30px;
+    }
+    .application-screenshots{
+        width: 100%;
+    }
+    ul{
+        text-align: center;
+    }
+    li{
+        text-indent: 0;
     }
   }
